@@ -10,4 +10,9 @@ Why pay a fortune teller when you can just program your fortune yourself?
   "You will be a X in Y, and married to Z with N kids."
 */
 
-// write your solution here...
+var job = "developer";
+var location = "miami";
+var partner = "Bob";
+var children = 1;
+
+console.log ( "You will be a " + job + " in " + location + ", and married to " + partner + " with " + children + " kid(s).");
