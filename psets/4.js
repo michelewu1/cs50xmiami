@@ -10,4 +10,12 @@ http://www.mathsisfun.com/temperature-conversion.html
 - Convert it to celsius and output "NN°F is NN°C."
 */
 
-// write your solution here...
+var cel= 56;
+var fahr = (cel * 9)/5 +32;
+
+console.log(cel + " C is " + fahr + " F. ")
+
+var far= 56;
+var celcius = Math.round((far - 32)*5/9);
+
+console.log(far + " F is " + celcius + " C. ")
