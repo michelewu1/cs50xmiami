@@ -13,5 +13,11 @@ Look up the JavaScript string reference to find methods which may be useful!
 */
 
 function mixUp(a, b) {
-  // write your solution here...
+  var mixA = a.charAt(0);
+  var mixB = b.charAt(0);
+
+  var mix = a.replace(mixA, mixB) + " "+ b.replace(mixB, mixA);
+  console.log(mix);
 }
+
+mixUp("hello" , "world");
